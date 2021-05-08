@@ -342,13 +342,11 @@ section .title::after {
 .projects .title::after {
   background: #111;
   content: "what i worked with";
-  white-space: nowrap;
-  /*To warp the text which is coming on white line in the section*/
+  white-space: nowrap; /*To warp the text which is coming on white line in the section*/
 }
 .tools .tools-content .card {
-  /* width: calc(93% - 10px); */
-  width: calc(93%);
-  /* Size of the boxes available in the screen */
+  /* width: calc(33% - 20px); */
+  /* width: calc(63% - 1px); Size of the boxes available in the screen */
   margin-bottom: 20px; /*to increase distance between two cards in CSS*/
   background: #222;
   text-align: center;
@@ -777,9 +775,9 @@ footer span a:hover {
   .about .about-content .right {
     flex: 100%;
   }
-  /* .tools .tools-content .card {
+  .tools .tools-content .card {
     width: calc(50% - 10px);
-    margin-bottom: 20px; */
+    margin-bottom: 20px;
   }
   .skills .skills-content .column,
   .contact .contact-content .column {
